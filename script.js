@@ -18,7 +18,7 @@ function fetchUsers() {
 
 function displayUsers(users) {
   const userList = document.getElementById('userList');
-  userList.innerHTML = ''; // Clear previous results
+  userList.innerHTML = ''; 
   users.forEach(user => {
     const div = document.createElement('div');
     div.className = 'user-card';
